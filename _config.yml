@@ -144,11 +144,11 @@ content:
       - A NoisyRounds-based White-box AES Implementation and Corresponding Differential Fault Analysis.SUN T, TANG G J,WUX K,MAOZ N,GONGZ. Journal of Cryptologic Research, 2020, 7(3): 342-357.
 
   - title: When I'm Not Programming
-      layout: text
-      content: | # this will include new lines to allow paragraphs
-        I think I am a very typical Otaku, so in my leisure time I like watching anime and playing all kinds of video games. I also like watching e-sport tournaments. Recently, I have been watching Dota2 and Hearthstone.
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      I think I am a very typical Otaku, so in my leisure time I like watching anime and playing all kinds of video games. I also like watching e-sport tournaments. Recently, I have been watching Dota2 and Hearthstone.
 
-        I am interested in cooking as well, and am even good at it. Except for the Chinese home dishes, I like different kinds of curry recipes. My butter chicken may even impress my former Indian roommate.
+      I am interested in cooking as well, and am even good at it. Except for the Chinese home dishes, I like different kinds of curry recipes. My butter chicken may even impress my former Indian roommate.
 
 # Footer
 footer_show_references: true
