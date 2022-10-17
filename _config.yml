@@ -6,34 +6,34 @@ favicon: images/favicon.ico
 version: 2
 
 # Personal info
-name: Brett Harris
-title: Senior Network System Administrator
-email: brett.h@email.co.uk
-website: www.github.com/sproogen/resume-theme
+name: Guojun Tang
+#title: Senior Network System Administrator
+email: guojun.tang@unb.ca
+#website: www.github.com/sproogen/resume-theme
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-twitter_username: facespics
-github_username:  sproogen
+#twitter_username: facespics
+github_username:  guojuntang
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
 # facebook_username: jekyll
 # flickr_username: jekyll
-instagram_username: jameswgrant
-linkedin_username: jameswgrant
+#instagram_username: jameswgrant
+#linkedin_username: jameswgrant
 # xing_username: jekyll
 # pinterest_username: jekyll
-youtube_username: globalmtb
+#youtube_username: globalmtb
 # googleplus_username: +jekyll
 # orcid_username: 0000-0000-0000-0000
 
 # Additional icon links
-additional_links:
-- title: itsgoingto.be
-  icon: fas fa-globe
-  url: https://www.itsgoingto.be
+#additional_links:
+#- title: itsgoingto.be
+#  icon: fas fa-globe
+#  url: https://www.itsgoingto.be
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
@@ -48,73 +48,111 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
+  Hi, my name is Guojun Tang, and I am a graduate student from the University of New Brunswick, Canada. My current research topic is information security and data privacy. This research experience gives me a good opportunity to learn skills about cybersecurity and how to use cryptographic tools. I have worked with a range of different languages and tools: <mark>Java</mark>, <mark>Python</mark>, <mark>Git</mark>, <mark>C</mark>. Also, during my undergraduate, I learned and worked with the languages and frameworks of web design (e.g., <mark>Javascript</mark>, <mark>PHP</mark>, <mark>Node.js</mark>, <mark>Vue</mark>, <mark>Mysql</mark>) and hardware programming (<mark>Verilog</mark>).
+  
+  No matter what kind of skill I have learnt, I always stay self-motivated to learn the fresh knowledge.
 
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+  A simple version of CV is available [here](pdf/cv_tgj.pdf)
+
 
 content:
-  - title: Projects # Title for the section
+  - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: top-middle
-        title: Super awesome project
-        link: github.com/sproogen
-        # link_text: Project Website
-        additional_links:
-          - title:  sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+
+      - layout: left
+        title: South China Normal University, China
+        caption: 2015 - 2019
+        sub_title: BSc Computer Science -- Supervisor, Dr. Zheng Gong
         description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+          During my time at South China Normal University, I learnt the basic skills of computer science and began to get an insight into information security. Under the guidance of my undergraduate advisor, Dr. Zheng Gong, I participated in the design of a block cipher (SWAN cipher). In addition to the professional capabilities, I gained many important soft skills, like teamwork and project management.
+
+          Besides, I attended many extracurricular activities related to my major and gained many hands-on experiences. This included joining Network Association, a student association where I met many like-minded colleagues and learnt a lot about web applications. I was also a member of the Cybersecurity Team in my college, where my daily routine included preventing cyber attacks from our college's websites and representing our college in competitions concerning cybersecurity such as Capture The Flag (CTF).
+
+      - layout: left
+        title: University of New Brunswick, Canada
+        caption: 2021 - 2022
+        sub_title: MSc Computer Science -- Supervisor, Dr. Rongxing Lu
+        description: | # this will include new lines to allow paragraphs
+          The graduate studies at the University of New Brunswick allowed me to go deeper into computer science, and the eminent professors at UNB guided my academic career. I began my research on Privacy-Preservation under the supervision of Dr. Rongxing Lu, where I learned how to apply cryptography tools to various applications as well as certain academic skills. Later on, I participated in the NRC-CNRC co-op program and conducted research for WeightedSim, a privacy-preserving data similarity query strategy based on weighted Euclidean distance.
+
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: left
-        title: The Boring Company
-        link: boringcompany.com
-        # link_text: boringcompany.com
-        sub_title: Senior Network System Administrator
-        caption: November 2017 - Present
-        quote: >
-          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
-        description: | # this will include new lines to allow paragraphs
-            Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
 
-  - title: Education # Title for the section
+      - layout: left
+        title: Guangzhou 49You Co.,Ltd., China
+        sub_title: PHP Engineer (Intern)
+        caption: January 2018 - May 2018
+        description: | # this will include new lines to allow paragraphs
+            I was a PHP engineer intern at 49You. During my time at this company, I was primarily responsible for maintaining the web Content Management System, which was developed using ThinkPHP and JQuery. My daily responsibilities included bug fixes and updates to the online system.
+
+      - layout: left
+        title: National Research Council Canada (NRC-CNRC), Canada
+        sub_title: Research Student
+        caption: January 2022 - May 2022
+        description: | # this will include new lines to allow paragraphs
+            I attended the NRC-CNRC co-op program as a graduate student. I met my supervisor, Dr. Mohammad Mamun, at NRC. With the assistance of Dr. Lu and Dr. Mamun, I successfully conducted and concluded my WeightedSim research, which included designing the scheme, conducting a security analysis, implementing experimental programs (in <mark>Java</mark>), and writing the paper. At the end of my co-op program, I gave an presentation about my work at NRC to my coworkers.
+
+  - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: left
-        title: Harvard University
-        caption: 2010 - 2013
-        sub_title: BSc Computer Science
-        quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
-        description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
 
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+      - layout: top-middle
+        border: weak
+        title: Symmetric Homomorphic Encryption 
+        link: github.com/guojuntang/SymHomEnc
+        additional_links:
+          - title: Symmetric Homomorphic Encryption 
+            icon: fab fa-github
+            url: https://github.com/guojuntang/SymHomEnc
+        description: |
+          Symmetric Homomorphic Encryption was proposed by Dr. Rongxing Lu as a Somewhat Homomorphic Encryption that supports both homomorphic addition and homomorphic multiplication. This repository contains the Java implementation of the algorithm, including examples and test cases.
 
-  - title: A Little More About Me
+
+      - layout: top-middle
+        border: weak
+        title: WeightedSim 
+        link: github.com/guojuntang/WeightedSim
+        additional_links:
+          - title: WeightedSim 
+            icon: fab fa-github
+            url: https://github.com/guojuntang/WeightedSim
+        description: |
+          WeightedSim is a privacy-preserving similarity query scheme for multi-dimensional data based on weighted Euclidean distance, Symmetric Homomorphic Encryption, and R-Tree. This repo is the experimental program for WeightedSim, which is implemented in Java.
+
+          Currently, the original paper is being reviewed, and the manuscript may be open-sourced in the future.
+
+      - layout: top-middle
+        border: weak
+        title: SWAN Block Cipher 
+        link: github.com/GongZheng/SWAN
+        additional_links:
+          - title: SWAN Block Cipher 
+            icon: fab fa-github
+            url: https://github.com/GongZheng/SWAN
+        description: |
+          SWAN is a block cipher algorithm whose design is friendly to implementing the white-box encryption form. In this project, I mainly focused on the software and hardware implementation and optimization of the algorithm (C and Verilog HDL).
+
+
+  - title: Publications
     layout: text
     content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+      - Feistel Structure Based ConstructionOfWhiteBox Cryptography(Patent Number:201910264826.1) Tang Guojun, Le Qiwen, LiWeijie, Sun Tao, Gong Zheng
+      - SWAN Cipher(2019,March 3rd,Document: http://sfjs.cacrnet.org.cn/site/content/397.html) Tang Guojun, Gong Zheng, LiWeijie, Sun Tao, Xu Zhaoji, Sun Bin, Sun Siwei, Zhang Yingjie
+      - A NoisyRounds-based White-box AES Implementation and Corresponding Differential Fault Analysis.SUN T, TANG G J,WUX K,MAOZ N,GONGZ. Journal of Cryptologic Research, 2020, 7(3): 342-357.
 
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+- title: When I'm Not Programming
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      I think I am a very typical Otaku, so in my leisure time I like watching anime and playing all kinds of video games. I also like watching e-sport tournaments. Recently, I have been watching Dota2 and Hearthstone.
+
+      I am interested in cooking as well, and am even good at it. Except for the Chinese home dishes, I like different kinds of curry recipes. My butter chicken may even impress my former Indian roommate.
 
 # Footer
 footer_show_references: true
-# references_title: References on request (Override references text)
+references_title: Powered by [modern-resume-theme](https://github.com/sproogen/modern-resume-theme)
 
 # Build settings
 remote_theme: sproogen/resume-theme
