@@ -140,7 +140,7 @@ content:
   - title: Publications
     layout: text
     content: | # this will include new lines to allow paragraphs
-      - Feistel Structure Based ConstructionOfWhiteBox Cryptography(Patent Number:201910264826.1) Tang Guojun, Le Qiwen, LiWeijie, Sun Tao, Gong Zheng
+      - Feistel Structure Based Construction Of WhiteBox Cryptography(Patent Number:201910264826.1) Tang Guojun, Le Qiwen, LiWeijie, Sun Tao, Gong Zheng
       - SWAN Cipher(2019,March 3rd,Document: http://sfjs.cacrnet.org.cn/site/content/397.html) Tang Guojun, Gong Zheng, LiWeijie, Sun Tao, Xu Zhaoji, Sun Bin, Sun Siwei, Zhang Yingjie
       - A NoisyRounds-based White-box AES Implementation and Corresponding Differential Fault Analysis.SUN T, TANG G J,WUX K,MAOZ N,GONGZ. Journal of Cryptologic Research, 2020, 7(3): 342-357.
 
