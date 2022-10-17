@@ -63,10 +63,8 @@ content:
       - layout: left
         title: South China Normal University, China
         caption: 2015 - 2019
-        sub_title: |
-          BSc Computer Science  
-
-          Supervisor: Dr. Zheng Gong
+        sub_title: BSc Computer Science 
+        caption: Supervisor, Dr. Zheng Gong
         description: | # this will include new lines to allow paragraphs
           During my time at South China Normal University, I learnt the basic skills of computer science and began to get an insight into information security. Under the guidance of my undergraduate advisor, Dr. Zheng Gong, I participated in the design of a block cipher (SWAN cipher). In addition to the professional capabilities, I gained many important soft skills, like teamwork and project management.
 
@@ -75,10 +73,8 @@ content:
       - layout: left
         title: University of New Brunswick, Canada
         caption: 2021 - 2022
-        sub_title: |
-          MSc Computer Science  
-
-          Supervisor: Dr. Rongxing Lu
+        sub_title: MSc Computer Science  
+        caption: Supervisor, Dr. Rongxing Lu
         description: | # this will include new lines to allow paragraphs
           The graduate studies at the University of New Brunswick allowed me to go deeper into computer science, and the eminent professors at UNB guided my academic career. I began my research on Privacy-Preservation under the supervision of Dr. Rongxing Lu, where I learned how to apply cryptography tools to various applications as well as certain academic skills. Later on, I participated in the NRC-CNRC co-op program and conducted research for WeightedSim, a privacy-preserving data similarity query strategy based on weighted Euclidean distance.
 
