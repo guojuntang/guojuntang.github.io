@@ -102,7 +102,16 @@ content:
     content:
 
       - layout: top-middle
-        border: weak
+        title: GM/T Randomness Test 
+        link: https://github.com/guojuntang/gmt_randomness_test
+        additional_links:
+          - title: GM/T Randomness Test 
+            icon: fab fa-github
+            url: https://github.com/guojuntang/gmt_randomness_test
+        description: |
+          This project is a Python-based implementation of a randomness test standard named GM/T 0005-2021, which is similar to the randomness test standard in NIST.
+
+      - layout: top-middle
         title: Symmetric Homomorphic Encryption 
         link: github.com/guojuntang/SymHomEnc
         additional_links:
@@ -114,7 +123,6 @@ content:
 
 
       - layout: top-middle
-        border: weak
         title: WeightedSim 
         link: github.com/guojuntang/WeightedSim
         additional_links:
